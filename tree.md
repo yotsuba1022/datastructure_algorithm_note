@@ -138,7 +138,7 @@ b. 右子節點的值大於節點的值
 
 此種方式效率不高, 因為不滿的節點還有刪除的節點, 在陣列中留下了多餘的空間, 這是一種記憶體上的浪費, 更糟糕的是要刪除節點時, 若要移動子樹的話, 就更浪費時間了.
 
-
+  
 
 關於BST的實作, 可以看這裡\([點我](https://bitbucket.org/BlueLotus/my-leetcode/src/1e2c1dfabb062fead2f1a59fb2994b69034d54a5/src/main/java/idv/carl/datastructures/binarytree/BinaryTree.java?at=master&fileviewer=file-view-default)\)
 
