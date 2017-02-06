@@ -140,14 +140,6 @@ b. 右子節點的值大於節點的值
 
 
 
-
-
-   
-
-   
-
-   
-
 關於BST的實作, 可以看這裡\([點我](https://bitbucket.org/BlueLotus/my-leetcode/src/1e2c1dfabb062fead2f1a59fb2994b69034d54a5/src/main/java/idv/carl/datastructures/binarytree/BinaryTree.java?at=master&fileviewer=file-view-default)\)
 
 以下是針對實作中的getSuccessor\(\)的部分做圖示說明
