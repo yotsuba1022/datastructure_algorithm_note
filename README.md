@@ -1,4 +1,4 @@
-# Data Structure Note
+# 資料結構筆記
 
-This book is my note for data structure.
+讀就對了
 
