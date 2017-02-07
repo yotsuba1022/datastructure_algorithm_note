@@ -133,31 +133,23 @@
 
 #### 整理:
 
-堆積樹建立的過程\(insert\): 氣泡排序\(樹葉到樹根\), O\(logn\)
+* 堆積樹建立的過程\(insert\): 氣泡排序\(樹葉到樹根\), O\(logn\)
 
-調整過程: 氣泡排序\(樹根到樹葉\), O\(logn\)
+* 調整過程: 氣泡排序\(樹根到樹葉\), O\(logn\)
 
-取出最大/小值: 直接拿根節點, Θ\(1\)
+* 取出最大/小值: 直接拿根節點, Θ\(1\)
 
-堆積排序法\(Heap Sort\)又被稱為**改良的選擇排序法**
+* 堆積排序法\(Heap Sort\)又被稱為**改良的選擇排序法**
 
-Best Case: O\(nlogn\)
+* * Best Case: O\(nlogn\)
+* * Worst Case: O\(nlogn\)
+  * Average Case: O\(nlogn\)
+* * * 說明：
+* * * * 建立MaxHeap： Ο\(n\)
+* * * * 執行n-1次Delete Max：\(n-1\) × Ο\(log n\) = Ο\( n log n\)
+* * * * 合併兩個Heap Tree: 最優方法是把兩個二叉堆首尾相連放在
 
-Worst Case: O\(nlogn\)
-
-Average Case: O\(nlogn\)
-
-說明：
-
-* 建立MaxHeap： Ο\(n\)
-* 執行n-1次Delete Max：\(n-1\) × Ο\(log n\) = Ο\( n log n\)
-* Ο\(n\) + Ο\( n log n\) = Ο\( n log n\)
-
-
-
-合併兩個Heap Tree: 最優方法是把兩個二叉堆首尾相連放在一個數組中, 然後構造新的二叉堆.
-
-時間複雜度為O\(logn\*logk\), 其中n、k為兩個堆的元素數目.
+* 合併兩個Heap Tree: 最優方法是把兩個二叉堆首尾相連放在一個數組中, 然後構造新的二叉堆. 時間複雜度為O\(logn\*logk\), 其中n、k為兩個堆的元素數目.
 
 範例程式: [點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/heaptree/MinHeap.java)
 
