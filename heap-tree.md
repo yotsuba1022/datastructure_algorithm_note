@@ -139,7 +139,7 @@
 
 * 取出最大/小值: 直接拿根節點, Θ\(1\)
 
-* 堆積排序法\(Heap Sort\)又被稱為**改良的選擇排序法**
+* 堆積排序法\(Heap Sort\)又被稱為**改良的選擇排序法, **
 
 * * Best Case: O\(nlogn\)
 * * Worst Case: O\(nlogn\)
@@ -150,7 +150,7 @@
 * * * * 合併兩個Heap Tree: 最優方法是把兩個二叉堆首尾相連放在
 * 合併兩個Heap Tree: 最優方法是把兩個二叉堆首尾相連放在一個數組中, 然後構造新的二叉堆. 時間複雜度為O\(logn\*logk\), 其中n、k為兩個堆的元素數目.
 
-* 範例程式: [點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/heaptree/MinHeap.java)
+* 範例程式: [點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/heaptree/MaxHeap.java)
 
 
 
