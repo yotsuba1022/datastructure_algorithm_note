@@ -147,3 +147,5 @@
 
 時間複雜度為O\(logn\*logk\), 其中n、k為兩個堆的元素數目.
 
+範例程式: [點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/heaptree/MinHeap.java)
+
