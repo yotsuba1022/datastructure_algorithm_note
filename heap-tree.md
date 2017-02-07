@@ -15,7 +15,7 @@
 ```
                             10 -> s
                             / \
-                           /   \                   s(parent), 2s(left), 2s+1(right)為節點在陣列中的索引關係
+                           /   \              s(parent), 2s(left), 2s+1(right)為節點在陣列中的索引關係
                           /     \                  
                          /       \ 
                         /         \
