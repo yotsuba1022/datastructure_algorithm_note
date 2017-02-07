@@ -145,13 +145,11 @@
 
 ・Worst Case: O\(nlogn\)Average Case: O\(nlogn\)
 
-    說明：
+說明：
 
-    建立MaxHeap： Ο\(n\)
+建立MaxHeap： Ο\(n\)
 
-    執行n-1次Delete Max：\(n-1\) × Ο\(log n\) = Ο\( n log n\)
-
- 
+執行n-1次Delete Max：\(n-1\) × Ο\(log n\) = Ο\( n log n\)
 
 ・合併兩個Heap Tree: 最優方法是把兩個二叉堆首尾相連放在一個數組中, 然後構造新的二叉堆. 時間複雜度為O\(logn\*logk\), 其中n、k為兩個堆的元素數目.
 
