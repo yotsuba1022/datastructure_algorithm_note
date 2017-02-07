@@ -148,8 +148,9 @@
 * * * * 建立MaxHeap： Ο\(n\)
 * * * * 執行n-1次Delete Max：\(n-1\) × Ο\(log n\) = Ο\( n log n\)
 * * * * 合併兩個Heap Tree: 最優方法是把兩個二叉堆首尾相連放在
-
 * 合併兩個Heap Tree: 最優方法是把兩個二叉堆首尾相連放在一個數組中, 然後構造新的二叉堆. 時間複雜度為O\(logn\*logk\), 其中n、k為兩個堆的元素數目.
 
-範例程式: [點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/heaptree/MinHeap.java)
+* 範例程式: [點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/heaptree/MinHeap.java)
+
+
 
