@@ -9,7 +9,7 @@
 
 3. 另一個重點, 就在於把資料把資料分成兩個序列, 且要滿足條件\(左邊小於pivot, 右邊大於pivot\).
 
-4. 時間複雜度為: O\(nlogn\)
+4. 時間複雜度為: **O\(nlogn\)**
 
 ```java
 package idv.carl.sorting;
@@ -59,7 +59,6 @@ public class QuickSort2 {
     }
 
 }
-
 ```
 
 
