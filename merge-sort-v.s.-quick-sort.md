@@ -1,6 +1,6 @@
 # Merge Sort v.s. Quick Sort
 
-* 兩者其實非常相似, 都是把資料分成兩邊, 直到不能再分了, 才把資料合起來. 不過quick sort最大的特色就是會有partition的這個動作, 講白了就是把數字分好大小後再繼續往下分, 所以這樣循環下去分到最小後, 也表示完成了排序的動作了.
+* 兩者其實非常相似, 都是把資料分成兩邊, 直到不能再分了, 才把資料合起來. 不過quick sort最大的特色就是會有**partition**的這個動作, 講白了就是**把數字分好大小後再繼續往下分**, 所以這樣循環下去分到最小後, 也表示完成了排序的動作了.
 
 * 在大部分的worst case下, merge sort是優於quick sort的, 再加上merge sort的worst case跟quick sort的bast case之時間複雜度是一樣的, 這樣看來似乎是merge sort比較快.
 
