@@ -18,8 +18,7 @@ public class MergeSort {
         MergeSort mergeSort = new MergeSort();
         int[] input = new int[] {4, 8, 10, 1, 5, 9, 7};
         mergeSort.mergeSort(input);
-        System.out.println("---");
-        Arrays.stream(input).forEach(data -> System.out.println(data));
+        Arrays.stream(input).forEach(data -> System.out.print(data + " "));
     }
 
     public void mergeSort(int[] data) {
@@ -58,7 +57,6 @@ public class MergeSort {
                 // If left > right, add the right value into temp
                 temp[count++] = data[mid++];
             }
-
         }
 
         // Step2. Handle the remaining part:
