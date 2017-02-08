@@ -76,8 +76,7 @@ public class MergeSort {
     }
 
 }
-
 ```
 
-
+原始碼網址[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/sorting/MergeSort.java)
 
