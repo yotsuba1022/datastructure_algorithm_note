@@ -7,5 +7,5 @@
 * [Sort](sort.md)
 * [Merge Sort](mergesort.md)
 * [Quick Sort](quick-sort.md)
-* [Merge Sort v.s. Quick Sort](merge-sort-v.s.-quick-sort.md)
+* [Sorting Analysis](merge-sort-v.s.-quick-sort.md)
 
