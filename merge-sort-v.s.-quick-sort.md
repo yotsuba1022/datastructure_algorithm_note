@@ -2,7 +2,7 @@
 
 * 兩者其實非常相似, 都是把資料分成兩邊, 直到不能再分了, 才把資料合起來. 不過quick sort最大的特色就是會有**partition**的這個動作, 講白了就是**把數字分好大小後再繼續往下分**, 所以這樣循環下去分到最小後, 也表示完成了排序的動作了.
 
-* 在大部分的worst case下, merge sort是優於quick sort的, 再加上merge sort的worst case跟quick sort的bast case之時間複雜度是一樣的, 這樣看來似乎是merge sort比較快.
+* 在大部分的worst case下, merge sort是優於quick sort的, 再加上merge sort的worst case跟quick sort的bast case之時間複雜度是一樣的, 這樣看來似乎是merge sort比較快\(理論上\).
 
 * 可是實際上來說, 如果兩者都用遞迴的方式去實作的話, quick sort的method call為N, 那merge sort就會是2N-1, 即merge sort多花了一倍的method call. 如果用迴圈來做, merge sort會花比較多時間在記憶體上面, 因為它不是in-place sorting.
 
