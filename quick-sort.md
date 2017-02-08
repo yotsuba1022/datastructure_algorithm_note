@@ -61,5 +61,5 @@ public class QuickSort2 {
 }
 ```
 
-
+原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/sorting/QuickSort2.java)
 
