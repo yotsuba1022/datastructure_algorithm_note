@@ -9,5 +9,4 @@
 * [Sort](sort.md)
 * [Merge Sort](mergesort.md)
 * [Quick Sort](quick-sort.md)
-* Stack usage
 
