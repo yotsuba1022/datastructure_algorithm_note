@@ -1,6 +1,6 @@
 # Priority Queue {#firstHeading}
 
-Priority Queue: 優先佇列, 即資料按照關鍵字排好的佇列
+Priority Queue: 優先佇列, 即資料按照關鍵字排好的佇列, 詳細可見[維基百科](https://zh.wikipedia.org/wiki/%E5%84%AA%E5%85%88%E4%BD%87%E5%88%97)
 
 Priority Queue的效率: 下方的是比較粗糙的實作, insert需要**O\(n\)**, 而remove是O\(1\), 通常這邊要改進insert的效能可以用**heap**來實作內部的資料結構, 這樣可以令insert的效能提升至**O\(logn\)**
 
