@@ -70,5 +70,9 @@ public class Stack {
 }
 ```
 
+#### Stack的效率
+
+Stack的pop跟push之時間複雜度皆為常數, 即**O\(1\)**, 不涉及複製和移動操作
+
 
 
