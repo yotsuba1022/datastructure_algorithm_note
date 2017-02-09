@@ -1,8 +1,9 @@
 # Stack的應用
 
-1. 產生反序的字串
+1. 產生反序的字串  
    接續前一章中的自製Stack資料結構, 我們可用此資料結構來做出顛倒字串的動作:
-   ```
+
+   ```java
    package idv.carl.datastructures.stack;
 
    /**
@@ -31,7 +32,9 @@
 
    }
    ```
+
 2. 括號\(brackets\)的匹配
+
    ```java
    package idv.carl.datastructures.stack;
 
@@ -95,11 +98,9 @@
        }
 
    }
-
    ```
+
 3. 計算算式表達式
-
-
 
 
 
