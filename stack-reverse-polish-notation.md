@@ -120,14 +120,7 @@ public class ReversePolishNotation {
     }
 
 }
-
 ```
-
-
-
-
-
-
 
 
 
