@@ -24,6 +24,7 @@ public class ReverseString {
         for (char c : chars) {
             stack.push(c);
         }
+        
         // Step3. Pop all chars to form a new string
         while (!stack.isEmpty()) {
             result.append((char) stack.pop());
