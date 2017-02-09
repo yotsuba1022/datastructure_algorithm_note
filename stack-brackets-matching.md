@@ -2,6 +2,8 @@
 
 當想要檢驗一個輸入當中的括號順序跟種類是否正確, 可以透過stack來做檢查.
 
+原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/stack/CheckBrackets.java)
+
 ```java
 package idv.carl.datastructures.stack;
 
