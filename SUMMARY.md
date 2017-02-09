@@ -10,5 +10,4 @@
 * [Heap Tree](heap-tree.md)
 * [Sort](sort.md)
 * [Merge Sort](mergesort.md)
-* Stack: Reverse Polish notation
 
