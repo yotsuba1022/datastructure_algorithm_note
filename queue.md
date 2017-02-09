@@ -10,7 +10,7 @@ Queue的基本操作:
 
 Circular Queue: 為了避免queue未滿, 卻不能插入新資料項的問題, 可以讓隊頭隊尾的指標繞回陣列開始的位置, 這就是circular queue, 又稱作ring buffer.
 
-Queue的效能: insert和remove的時間複雜度均為O\(1\)
+Queue的效能: insert和remove的時間複雜度均為**O\(1\)**
 
 一個簡單的circular queue的實作\(原始碼點我\):
 
@@ -86,7 +86,6 @@ public class CircularQueue {
     }
 
 }
-
 ```
 
 
