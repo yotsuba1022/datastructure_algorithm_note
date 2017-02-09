@@ -12,7 +12,7 @@ Circular Queue: 為了避免queue未滿, 卻不能插入新資料項的問題, �
 
 Queue的效能: insert和remove的時間複雜度均為**O\(1\)**
 
-一個簡單的circular queue的實作\(原始碼點我\):
+一個簡單的circular queue的實作\(原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/queue/CircularQueue.java)\):
 
 ```java
 package idv.carl.datastructures.queue;
