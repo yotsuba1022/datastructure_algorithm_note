@@ -10,4 +10,15 @@
 * [Priority Queue](priority-queue.md)
 * [Tree](/tree.md)
 * [Binary Search Tree](binary-search-tree.md)
+* [Heap Tree](heap-tree.md)
+* [Sort](sort.md)
+* [Merge Sort](mergesort.md)
+* [Quick Sort](quick-sort.md)
+* [Merge Sort v.s. Quick Sort](merge-sort-v.s.-quick-sort.md)
+* [Heap Sort v.s. Merge Sort](heap-sort-v.s.-merge-sort.md)
+
+
+
+
+
 
