@@ -1,5 +1,7 @@
 # Stack: Brackets Matching
 
+當想要檢驗一個輸入當中的括號順序跟種類是否正確, 可以透過stack來做檢查.
+
 ```java
 package idv.carl.datastructures.stack;
 
@@ -64,8 +66,6 @@ public class CheckBrackets {
 
 }
 ```
-
-
 
 
 
