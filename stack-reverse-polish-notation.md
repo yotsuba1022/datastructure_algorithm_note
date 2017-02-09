@@ -13,6 +13,8 @@
 5. 若是運算子, 且若此時stack top的運算子優先級≥此運算子, 彈出stack top的運算子到後綴表達式, 直到發現優先級更低的元素位置, 把運算子push至stack
 6. 讀到輸入的尾端, 將stack元素pop出來直到該stack為empty, 將符號寫入後綴表達式中
 
+原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/stack/ReversePolishNotation.java)
+
 ```java
 package idv.carl.datastructures.stack;
 
