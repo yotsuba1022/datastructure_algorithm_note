@@ -19,7 +19,7 @@
 1. Stack是一種特殊的線性表, 限定只能在表的一端進行插入和刪除操作, 俗稱後進先出\(LIFO\).
 2. 操作資料的這一端就稱為表頭, 或top, 相對地, 另一端叫bottom, 不含任何元素的時候叫做empty stack.
 
-Stackk的基本操作:
+Stack的基本操作:
 
 1. push: 塞東西到stack
 2. pop: 把最上面的東西彈出來
@@ -68,7 +68,6 @@ public class Stack {
     }
 
 }
-
 ```
 
 
