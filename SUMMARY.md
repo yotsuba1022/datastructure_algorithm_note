@@ -2,8 +2,7 @@
 
 * [Introduction](README.md)
 * [Stack](stack.md)
-* [Stack usage](stack-usage.md)
-* [Stack: Revert String](stack-revert-string.md)
+* [Stack: Revert String](stack-usage.md)
 * [Stack: Brackets Matching](stack-brackets-matching.md)
 * [Stack: Reverse Polish Notation](stack-reverse-polish-notation.md)
 * [Tree](/tree.md)
