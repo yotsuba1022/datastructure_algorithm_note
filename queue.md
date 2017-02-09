@@ -57,9 +57,14 @@ public class CircularQueue {
         queue[head] = 0;
         // Check the head index already exceed the max length or not
         if (head == queue.length - 1) {
+            /*
+             * If the removed node is tail, it means that the next node will be removed must be the
+             * head node since this is a circular queue, so reset head index to 0.
+             */
             head = 0;
+        } else {
+            head++;
         }
-        head++;
         elementCount--;
         return temp;
     }
