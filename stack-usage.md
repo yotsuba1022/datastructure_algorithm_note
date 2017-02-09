@@ -3,6 +3,8 @@
 產生反序的字串  
 接續前一章中的自製Stack資料結構, 我們可用此資料結構來做出顛倒字串的動作:
 
+原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/stack/ReverseString.java)
+
 ```java
 package idv.carl.datastructures.stack;
 
