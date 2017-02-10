@@ -2,7 +2,7 @@
 
 Linked List也是一種特殊的線性表, 其由一系列的節點組成, 節點的順序是通過節點元素中的指標連接次序來確定的. Linked List中的節點包含兩個部分, 一個是其自身需存放的資料, 另一個是指向下一個節點的參照\(reference\).
 
-Linked List v.s. Arry
+Linked List v.s. Array
 
 1. 都可作為資料的儲存結構
 2. Array: 固定長度, 依序存放
