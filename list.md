@@ -8,7 +8,7 @@ Linked List v.s. Array
 2. Array: 固定長度, 依序存放
 3. Linked List: 無容量限制, 非連續和非順序的儲存結構
 4. 從效率上來說, linked list基本上是優於array的
-5. 基本上, 只要是能用array的地方, 都可以用linked list來代替array. Linked list的缺點是引入了複雜度.
+5. 基本上, 只要是能用array的地方, 都可以用linked list來代替array. Linked list的缺點是引入了複雜度
 
 Linked List的基本操作
 
