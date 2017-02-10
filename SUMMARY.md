@@ -16,9 +16,5 @@
 * [Quick Sort](quick-sort.md)
 * [Merge Sort v.s. Quick Sort](merge-sort-v.s.-quick-sort.md)
 * [Heap Sort v.s. Merge Sort](heap-sort-v.s.-merge-sort.md)
-
-
-
-
-
+* [List](list.md)
 
