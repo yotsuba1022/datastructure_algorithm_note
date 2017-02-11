@@ -105,18 +105,13 @@ public class OrderedLinkedList {
 }
 ```
 
-原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/list/OrderedLinkedList.java)  
-
-
-
+原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/list/OrderedLinkedList.java)
 
 使用有序連結串列來實作插入排序
 
 思路: 把資料依序插入到有序連結串列, 然後再依次讀取出來, 這樣就排好惹.
 
 效率: 比陣列插入法還高, 因為在這種方式下, 資料的複製次數比較少一些, 每個節點只要2n次複製, 但在陣列中約需要n^2次的複製
-
-原始碼點我
 
 ```java
 package idv.carl.datastructures.list;
@@ -144,5 +139,5 @@ public class SortByOrderedLinkedList {
 }
 ```
 
-
+原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/list/SortByOrderedLinkedList.java)
 
