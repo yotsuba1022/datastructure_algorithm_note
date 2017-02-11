@@ -4,7 +4,7 @@
 
 效能: 插入和刪除都要O\(n\)的時間複雜度
 
-以下是比較粗糙實作, 只使用有單向連結串列, 所以省略了從尾部新增節點的操作
+以下是比較粗糙的實作\(升冪排列\), 只使用有單向連結串列, 所以省略了從尾部新增節點的操作
 
 ```java
 package idv.carl.datastructures.list;
@@ -103,7 +103,6 @@ public class OrderedLinkedList {
         return size;
     }
 }
-
 ```
 
 
