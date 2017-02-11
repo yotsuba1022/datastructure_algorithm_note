@@ -150,8 +150,7 @@ public class DoubleLinkedList {
     }
 
 }
-
 ```
 
-
+原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/list/DoubleLinkedList.java)
 
