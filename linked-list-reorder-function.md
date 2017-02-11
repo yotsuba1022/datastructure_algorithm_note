@@ -25,7 +25,7 @@ Output: 1,5,2,4,3
 3. 用反序的方式重排後半段
 4. 把兩半串列合起來
 
-原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/list/LinkedList.java)
+原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/list/LinkedList.java), 詳閱reorderList function.
 
 ```java
 package idv.carl.datastructures.list;
