@@ -6,6 +6,8 @@
 
 以下是比較粗糙的實作\(升冪排列\), 只使用有單向連結串列, 所以省略了從尾部新增節點的操作
 
+原始碼點我
+
 ```java
 package idv.carl.datastructures.list;
 
@@ -107,5 +109,38 @@ public class OrderedLinkedList {
 
 使用有序連結串列來實作插入排序
 
-思路: 把資料依序插入到有序連結串列, 
+思路: 把資料依序插入到有序連結串列, 然後再依次讀取出來, 這樣就排好惹.
+
+效率: 比陣列插入法還高, 因為在這種方式下, 資料的複製次數比較少一些, 每個節點只要2n次複製, 但在陣列中約需要n^2次的複製
+
+原始碼點我
+
+```java
+package idv.carl.datastructures.list;
+
+import java.util.Arrays;
+
+/**
+ * @author Carl Lu
+ */
+public class SortByOrderedLinkedList {
+
+    public int[] sort(int[] data) {
+        int[] result = new int[data.length];
+        OrderedLinkedList orderedLinkedList = new OrderedLinkedList();
+        // Step1. Add the data into list sequentially
+        Arrays.stream(data).forEach(d -> orderedLinkedList.insertHead(d));
+        // Step2. Obtain all the data from list sequentially
+        int index = 0;
+        while (!orderedLinkedList.isEmpty()) {
+            result[index++] = orderedLinkedList.removeHead().getId();
+        }
+        return result;
+    }
+
+}
+
+```
+
+
 
