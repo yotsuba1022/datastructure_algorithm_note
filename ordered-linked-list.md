@@ -6,8 +6,6 @@
 
 以下是比較粗糙的實作\(升冪排列\), 只使用有單向連結串列, 所以省略了從尾部新增節點的操作
 
-原始碼點我
-
 ```java
 package idv.carl.datastructures.list;
 
@@ -107,6 +105,11 @@ public class OrderedLinkedList {
 }
 ```
 
+原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/list/OrderedLinkedList.java)  
+
+
+
+
 使用有序連結串列來實作插入排序
 
 思路: 把資料依序插入到有序連結串列, 然後再依次讀取出來, 這樣就排好惹.
@@ -139,7 +142,6 @@ public class SortByOrderedLinkedList {
     }
 
 }
-
 ```
 
 
