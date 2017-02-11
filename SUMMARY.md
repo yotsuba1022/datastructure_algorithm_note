@@ -17,6 +17,7 @@
 * [Merge Sort v.s. Quick Sort](merge-sort-v.s.-quick-sort.md)
 * [Heap Sort v.s. Merge Sort](heap-sort-v.s.-merge-sort.md)
 * [Linked List](list.md)
+* [Linked List - Reorder Function](linked-list-reorder-function.md)
 * [Ordered Linked List](ordered-linked-list.md)
 * [Double Linked List](doubled-linked-list.md)
 
