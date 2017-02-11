@@ -2,6 +2,8 @@
 
 Double Linked List: 即list中的各個節點都同時紀錄著其前面與後面的節點, 這樣既能向前迭代資料, 同時也能向後迭代資料.
 
+注意各個方法裡面如何處理節點之間的關係, 像remove by id就要考慮許多edge case不然unit test不會過.
+
 ```java
 package idv.carl.datastructures.list;
 
@@ -156,8 +158,9 @@ public class DoubleLinkedList {
     }
 
 }
-
 ```
 
 原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/list/DoubleLinkedList.java)
+
+
 
