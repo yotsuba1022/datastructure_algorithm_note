@@ -20,8 +20,8 @@ public class DoubleLinkedList {
             tail = newNode;
         } else {
             head.setPrevious(newNode);
+            newNode.setNext(head);
         }
-        newNode.setNext(head);
         head = newNode;
         size++;
     }
@@ -47,8 +47,8 @@ public class DoubleLinkedList {
             tail = null;
         } else {
             head.getNext().setPrevious(null);
+            head = head.getNext();
         }
-        head = head.getNext();
         size--;
         return removed;
     }
@@ -71,6 +71,7 @@ public class DoubleLinkedList {
         }
         DoubleLinkedNode removed = tail;
         if (removed.getPrevious() == null) {
+            head = null;
             tail = null;
         } else {
             removed.getPrevious().setNext(null);
@@ -87,10 +88,15 @@ public class DoubleLinkedList {
         DoubleLinkedNode removed = find(id);
         if (removed == null) {
             return removed;
+        } else if (size == 1) {
+            head = null;
+            tail = null;
         } else if (removed == head) {
             head = head.getNext();
+            head.setPrevious(null);
         } else if (removed == tail) {
             tail = removed.getPrevious();
+            tail.setNext(null);
         } else {
             removed.getPrevious().setNext(removed.getNext());
             removed.getNext().setPrevious(removed.getPrevious());
@@ -150,6 +156,7 @@ public class DoubleLinkedList {
     }
 
 }
+
 ```
 
 原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/list/DoubleLinkedList.java)
