@@ -63,7 +63,7 @@ b. 右子節點的值大於節點的值
 
           /   / \
 
-         3   7   10 current = deletedNode.getRight\(\)
+         3   7   10 current = deletedNode.getRight()
 
                 / \
 
@@ -87,7 +87,7 @@ b. 右子節點的值大於節點的值
 
                9   11
 
-               ^---------- current = current.getLeft\(\)
+               ^---------- current = current.getLeft()
 
 
 
@@ -109,7 +109,7 @@ b. 右子節點的值大於節點的值
 
                ^------- successor = current
 
-                        current = current.getLeft\(\) = null
+                        current = current.getLeft() = null
 
 
 
