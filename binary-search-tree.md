@@ -119,11 +119,11 @@ b. 右子節點的值大於節點的值
 
             / \
 
-           5   9 successor.setRight\(deletedNode.getRight\(\)\)
+           5   9 successor.setRight(deletedNode.getRight())
 
           /   / \
 
-         3   7   10 successorParent.setLeft\(successor.getRight\(\)\)
+         3   7   10 successorParent.setLeft(successor.getRight())
 
                 / \
 
