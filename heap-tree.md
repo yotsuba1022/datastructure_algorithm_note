@@ -151,7 +151,7 @@
 
 執行n-1次Delete Max：\(n-1\) × Ο\(log n\) = Ο\( n log n\)
 
-・合併兩個Heap Tree: 最優方法是把兩個heap tree首尾相連放在一個陣列中, 然後構造新的heap tree. 時間複雜度為O\(logn\*logk\), 其中n、k為兩個堆的元素數目.
+・合併兩個Heap Tree: 最優方法是把兩個heap tree首尾相連放在一個陣列中, 然後構造新的heap tree. 時間複雜度為O\(logn\*logk\), 其中n、k為兩個heap tree的元素數目.
 
 * 範例程式: [點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/datastructures/heaptree/MaxHeap.java)
 
