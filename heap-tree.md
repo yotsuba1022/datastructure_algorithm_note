@@ -143,7 +143,9 @@
 
 ・Best Case: O\(nlogn\)
 
-・Worst Case: O\(nlogn\)Average Case: O\(nlogn\)
+・Worst Case: O\(nlogn\)
+
+・Average Case: O\(nlogn\)
 
 說明：
 
