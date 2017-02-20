@@ -1,12 +1,10 @@
 # Fibonacci Series \(斐波那契數列\)
 
-
-
 關於Fibonacci series的定義如下:
 
-Fibonacchi\(N\) = 0                                   for n=0
+![](/assets/Fibonacci2.png)
 
-= 0                                                   for n=1
+其在數學上是以遞迴的方式定義的.
 
-= Fibonacchi\(N-1\)+Finacchi\(N-2\)                     for n&gt;1
+
 
