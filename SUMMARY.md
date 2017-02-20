@@ -21,7 +21,6 @@
 * [2.1.1 Merge Sort](mergesort.md)
 * [2.1.2 Quick Sort](quick-sort.md)
 * [2.1.3 Merge Sort v.s. Quick Sort](merge-sort-v.s.-quick-sort.md)
-* [Linked List](list.md)
 * [Dynamic Programming](dynamic-programming.md)
 * [Fibonacci Series](fibonacci-series.md)
 
