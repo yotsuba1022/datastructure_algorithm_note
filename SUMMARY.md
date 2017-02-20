@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* Data Structure
 * [Stack](stack.md)
 * [Stack: Revert String](stack-usage.md)
 * [Stack: Brackets Matching](stack-brackets-matching.md)
