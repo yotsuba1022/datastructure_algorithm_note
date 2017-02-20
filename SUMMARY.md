@@ -13,7 +13,7 @@
 * [1.3.1 Binary Search Tree](binary-search-tree.md)
 * [1.3.2 Heap Tree](heap-tree.md)
 * [1.3.4B-Tree](b-tree.md)
-* Algorithm
+* [Algorithm](algorithm.md)
 * [Sort](sort.md)
 * [Merge Sort](mergesort.md)
 * [Quick Sort](quick-sort.md)
