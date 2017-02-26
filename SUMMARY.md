@@ -18,6 +18,7 @@
 * [1.4.4 B-Tree](b-tree.md)
 * [2. Algorithm](algorithm.md)
 * [2.1 Sort](sort.md)
+* 2.1.1 Selection Sort
 * [2.1.1 Merge Sort](mergesort.md)
 * [2.1.2 Quick Sort](quick-sort.md)
 * [2.1.3 Merge Sort v.s. Quick Sort](merge-sort-v.s.-quick-sort.md)
