@@ -15,6 +15,7 @@
 * [1.4 Tree](/tree.md)
 * [1.4.1 Binary Search Tree](binary-search-tree.md)
 * [1.4.2 Heap Tree](heap-tree.md)
+* [1.4.3 Red-Black Tree](1.4.3-red-black-tree.md)
 * [1.4.4 B-Tree](b-tree.md)
 * [2. Algorithm](algorithm.md)
 * [2.1 Sort](sort.md)
@@ -26,5 +27,4 @@
 * [2.1.6 Merge Sort v.s. Quick Sort](merge-sort-v.s.-quick-sort.md)
 * [2.2 Dynamic Programming](dynamic-programming.md)
 * [2.2.1 Fibonacci Series](fibonacci-series.md)
-* Red-Black Tree
 
