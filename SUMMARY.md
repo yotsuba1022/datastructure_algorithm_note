@@ -26,4 +26,5 @@
 * [2.1.6 Merge Sort v.s. Quick Sort](merge-sort-v.s.-quick-sort.md)
 * [2.2 Dynamic Programming](dynamic-programming.md)
 * [2.2.1 Fibonacci Series](fibonacci-series.md)
+* Red-Black Tree
 
