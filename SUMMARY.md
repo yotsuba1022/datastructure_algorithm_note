@@ -16,6 +16,7 @@
 * [1.4.1 Binary Search Tree](binary-search-tree.md)
 * [1.4.2 Heap Tree](heap-tree.md)
 * [1.4.3 Red-Black Tree](1.4.3-red-black-tree.md)
+* [1.4.3.1 RB Tree Insertion](1.4.1.1-rb-tree-insert.md)
 * [1.4.4 B-Tree](b-tree.md)
 * [2. Algorithm](algorithm.md)
 * [2.1 Sort](sort.md)
