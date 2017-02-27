@@ -18,6 +18,7 @@
 * [1.4.4 B-Tree](b-tree.md)
 * [2. Algorithm](algorithm.md)
 * [2.1 Sort](sort.md)
+* [2.1.1 Bubble Sort](2.1.1-bubble-sort.md)
 * [2.1.2 Selection Sort](2.1.1-selection-sort.md)
 * [2.1.3 Insertion Sort](2.1.2-insertion-sort.md)
 * [2.1.4 Merge Sort](mergesort.md)
