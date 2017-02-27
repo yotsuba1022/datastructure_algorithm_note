@@ -24,4 +24,5 @@
 * [2.1.4 Merge Sort v.s. Quick Sort](merge-sort-v.s.-quick-sort.md)
 * [2.2 Dynamic Programming](dynamic-programming.md)
 * [2.2.1 Fibonacci Series](fibonacci-series.md)
+* [2.1.2 Insertion Sort](2.1.2-insertion-sort.md)
 
