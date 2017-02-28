@@ -10,5 +10,5 @@
 
 * 最後, 這兩者都是Divide and Conquer的做法, 只是**quick sort為先苦後樂**\(遞迴之前的partition比較麻煩, 遞迴完後就沒事了\); 而**merge sort是先樂後苦**\(進入遞迴之前都沒事, 但是遞迴之後的合併動作就累了\).
 
-註1: 參閱[原始碼](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/sorting/MergeSort.java), 注意merge function的step1~step2, 這是第一次的N, 即排序當前分割後的結果, 而step3, 把排序好的結果放回原本的array, 也會有一次N.
+註1: 參閱[原始碼](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/sorting/mergesort/MergeSort.java), 注意merge function的step1~step2, 這是第一次的N, 即排序當前分割後的結果, 而step3, 把排序好的結果放回原本的array, 也會有一次N.
 
