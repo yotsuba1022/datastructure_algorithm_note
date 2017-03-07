@@ -19,6 +19,7 @@
 * [1.4.3.1 RB Tree Insertion](1.4.1.1-rb-tree-insert.md)
 * [1.4.3.2 RB Tree Insertion Implementation](1.4.3.2-rb-tree-insertion-implementation.md)
 * [1.4.3.3 RB Tree Delete Implementation](1.4.3.3-rb-tree-delete-implementation.md)
+* [1.4.3.4 RB Tree Delete Implementation](1.4.3.4-rb-tree-delete-implementation.md)
 * [1.4.4 B-Tree](b-tree.md)
 * [2. Algorithm](algorithm.md)
 * [2.1 Sort](sort.md)
