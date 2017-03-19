@@ -10,3 +10,5 @@
 
 ![](/assets/array_sorting_algorithms.png)
 
+Those resources are refered from [here](http://bigocheatsheet.com/).
+
