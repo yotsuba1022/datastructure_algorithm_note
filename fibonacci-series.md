@@ -97,11 +97,11 @@ public class FibonacciTest {
     }
 
     /*
-    * This will failed.
-    * */
+     * This will failed.
+     */
     @Test
     public void testTimeoutForRecursiveWay() {
-        assertEquals(55, FibonacciRecursive.findFibonacci(50));
+        assertEquals(12586269025L, FibonacciRecursive.findFibonacci(50));
     }
 
     @Test
@@ -115,6 +115,7 @@ public class FibonacciTest {
     }
 
 }
+
 ```
 
 原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/test/java/idv/carl/leetcode/algorithms/easy/fibonacci/FibonacciTest.java)
