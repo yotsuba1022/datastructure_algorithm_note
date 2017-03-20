@@ -49,17 +49,15 @@
      *
      * Time Complexity: O(n) , Space Complexity : O(n)
      */
-    public static long findFibonacciWithDynamicProgramming(int n) {
+    public static long findFibonacci(int n) {
         long fib[] = new long[n + 1];
-        fib[0] = 1l;
+
+        fib[0] = 0l;
         fib[1] = 1l;
 
         for (int i = 0; i <= n; i++) {
-            if (i <= 1) {
-                System.out.println("Fibonacci " + i + ": " + fib[i]);
-            } else {
+            if (i > 1) {
                 fib[i] = fib[i - 1] + fib[i - 2];
-                System.out.println("Fibonacci " + i + ": " + fib[i]);
             }
         }
 
