@@ -34,7 +34,7 @@
     }
 ```
 
-原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/leetcode/algorithms/easy/fibonacci/Fibonacci.java)
+原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/leetcode/algorithms/easy/fibonacci/FibonacciRecursive.java)
 
 ### 動態規劃:
 
@@ -115,8 +115,7 @@ public class FibonacciTest {
     }
 
 }
-
 ```
 
-
+原始碼點我
 
