@@ -1,6 +1,6 @@
 # Find Longest Common Suffix
 
-定義: 找出兩字串中的最長共同suffix
+定義: 找出兩個字串中最長的共同suffix
 
 情境:
 
