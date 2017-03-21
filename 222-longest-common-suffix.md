@@ -9,7 +9,7 @@
 * String1: Manhours, String 2: manhole 
   -&gt; LCS: NULL \(anho不是suffix\)
 
-這種問題基本上就是要用dynamic programming去解的, 如果以表格來分析的話基本上會長得像下面這張圖:
+這種問題基本上就是要用dynamic programming去解的, 如果以表格來分析的話大概就會長得像下面這張圖:
 
 ![](/assets/find_longest_common_suffix.png)
 
@@ -99,7 +99,6 @@ public class FindLongestCommonSuffix {
         return isSuffix;
     }
 }
-
 ```
 
 原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/leetcode/algorithms/medium/longestcommonsuffix/FindLongestCommonSuffix.java)
