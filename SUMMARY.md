@@ -31,5 +31,6 @@
 * [2.1.6 Merge Sort v.s. Quick Sort](merge-sort-v.s.-quick-sort.md)
 * [2.2 Dynamic Programming](dynamic-programming.md)
 * [2.2.1 Fibonacci Series](fibonacci-series.md)
+* [2.2.2 Find Longest Common Suffix](222-longest-common-suffix.md)
 * [X. Time Complexity Cheat Sheet](x-time-complexity-cheat-sheet.md)
 
