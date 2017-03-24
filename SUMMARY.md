@@ -29,6 +29,7 @@
 * [2.1.4 Merge Sort](mergesort.md)
 * [2.1.5 Quick Sort](quick-sort.md)
 * [2.1.6 Merge Sort v.s. Quick Sort](merge-sort-v.s.-quick-sort.md)
+* [2.2 Search](22-search.md)
 * [2.2 Dynamic Programming](dynamic-programming.md)
 * [2.2.1 Fibonacci Series](fibonacci-series.md)
 * [2.2.2 Find Longest Common Suffix](222-longest-common-suffix.md)
