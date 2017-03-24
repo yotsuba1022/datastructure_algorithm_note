@@ -51,10 +51,9 @@ public class BinarySearch {
     }
 
 }
-
 ```
 
-原始碼點我
+原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/leetcode/algorithms/easy/binarysearchinarray/BinarySearch.java)
 
 測試程式:
 
@@ -92,10 +91,9 @@ public class BinarySearchTest {
         assertEquals(-1, BinarySearch.searchIteratively(input, 3));
     }
 }
-
 ```
 
-原始碼點我
+原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/test/java/idv/carl/leetcode/algorithms/easy/binarysearchinarray/BinarySearchTest.java)
 
 遞迴只應天上有, 凡人應當用迴圈 \(嘆
 
