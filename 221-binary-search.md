@@ -95,5 +95,5 @@ public class BinarySearchTest {
 
 原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/test/java/idv/carl/leetcode/algorithms/easy/binarysearchinarray/BinarySearchTest.java)
 
-遞迴只應天上有, 凡人應當用迴圈 \(嘆
+遞迴只應天上有, 凡人應當用迴圈 \(嘆\)
 
