@@ -34,6 +34,24 @@
     }
 ```
 
+Python版本:
+
+```py
+def fibo(n):
+    
+    output = []
+    a = 1
+    b = 1
+    
+    for i in range(n):
+        output.append(a)
+        a, b = b, a + b
+    
+    return output
+
+fibo(10)
+```
+
 原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/leetcode/algorithms/easy/fibonacci/FibonacciRecursive.java)
 
 ### 動態規劃:
