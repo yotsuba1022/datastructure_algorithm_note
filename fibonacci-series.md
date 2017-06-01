@@ -69,13 +69,16 @@ Python版本:
 
 ```py
 def fibonacci(n):
-    
+
     a = 1
     b = 1
-    
+
     for i in range(n):
         yield a
         a, b = b, a + b
+
+for num in fibonacci(10):
+    print num
 ```
 
 原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/leetcode/algorithms/easy/fibonacci/FibonacciDynamicProgramming.java)
