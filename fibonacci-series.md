@@ -65,6 +65,19 @@
     }
 ```
 
+Python版本:
+
+```py
+def fibonacci(n):
+    
+    a = 1
+    b = 1
+    
+    for i in range(n):
+        yield a
+        a, b = b, a + b
+```
+
 原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/main/java/idv/carl/leetcode/algorithms/easy/fibonacci/FibonacciDynamicProgramming.java)
 
 測試程式:
@@ -115,7 +128,6 @@ public class FibonacciTest {
     }
 
 }
-
 ```
 
 原始碼[點我](https://github.com/yotsuba1022/LeetCode/blob/master/src/test/java/idv/carl/leetcode/algorithms/easy/fibonacci/FibonacciTest.java)
